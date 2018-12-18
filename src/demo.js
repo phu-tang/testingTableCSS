@@ -10,22 +10,19 @@ import {
 } from "@material-ui/core";
 
 const styles = theme => ({
-  root: {
-    width: "100%",
-    marginTop: theme.spacing.unit * 3,
-    overflowX: "auto"
-  },
   head: {
     backgroundColor: "#fff",
     position: "sticky",
-    top: 0
+    top: 0,
+    border: "1px solid lightgrey"
   },
   topLeft: {
     backgroundColor: "#fff",
     position: "sticky",
     top: 0,
     left: 0,
-    zIndex: 10
+    zIndex: 10,
+    borderTop: "1px solid lightgrey"
   },
   name: {
     backgroundColor: "#fff",
@@ -34,7 +31,8 @@ const styles = theme => ({
     zIndex: 1
   },
   item: {
-    zIndex: -1000
+    zIndex: -1000,
+    borderLeft: "1px solid lightgrey"
   }
 });
 
